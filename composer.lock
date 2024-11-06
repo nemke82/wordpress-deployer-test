@@ -1,0 +1,111 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "52a8908af5a5051fcffd28533feeaa50",
+    "packages": [
+        {
+            "name": "deployer/deployer",
+            "version": "v7.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deployphp/deployer.git",
+                "reference": "df7d86e47f9760ca98dc7ff10962dd07134ac489"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/df7d86e47f9760ca98dc7ff10962dd07134ac489",
+                "reference": "df7d86e47f9760ca98dc7ff10962dd07134ac489",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^8.0|^7.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.64",
+                "pestphp/pest": "^3.3",
+                "phpstan/phpstan": "^1.4",
+                "phpunit/php-code-coverage": "^11.0",
+                "phpunit/phpunit": "^11.4"
+            },
+            "bin": [
+                "bin/dep"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Medvedev",
+                    "email": "anton@medv.io"
+                }
+            ],
+            "description": "Deployment Tool",
+            "homepage": "https://deployer.org",
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/antonmedv",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-10-23T15:09:50+00:00"
+        },
+        {
+            "name": "jetrails/deployer-autopilot",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jetrails/deployer-autopilot.git",
+                "reference": "910cb6f64e1c2ee17ae4a24e568b1c1d209614a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jetrails/deployer-autopilot/zipball/910cb6f64e1c2ee17ae4a24e568b1c1d209614a3",
+                "reference": "910cb6f64e1c2ee17ae4a24e568b1c1d209614a3",
+                "shasum": ""
+            },
+            "require": {
+                "deployer/deployer": "^7.5"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.64"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Grigorian",
+                    "email": "development@jetrails.com"
+                }
+            ],
+            "description": "AutoPilot deployer recipes and examples",
+            "keywords": [
+                "autopilot",
+                "deployer",
+                "jetrails",
+                "magento",
+                "recipe",
+                "shopware",
+                "wordpress"
+            ],
+            "time": "2024-10-23T17:58:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

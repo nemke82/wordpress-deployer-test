@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jetrails/deployer-autopilot": "^0.0.1"
+    }
+}
